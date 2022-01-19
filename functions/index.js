@@ -2,10 +2,13 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 const cors = require("cors");
+const serverless = require("serverless-http");
+const bodyParser = require("body-parser");
 
 const responsesDir = "responses";
 
 app.use(cors());
+app.use(bodyParser);
 
 app.post("/token", function (req, res) {
 	res.end(
@@ -53,8 +56,10 @@ app.get("/api/quality-control/orders/archive", function (req, res) {
 	);
 });
 
-const server = app.listen(9999, function () {
-	const host = server.address().address;
-	const port = server.address().port;
-	console.log("Example app listening at http://%s:%s", host, port);
-});
+module.exports.handler = serverless(app);
+
+// const server = app.listen(9999, function () {
+// 	const host = server.address().address;
+// 	const port = server.address().port;
+// 	console.log("Example app listening at http://%s:%s", host, port);
+// });
