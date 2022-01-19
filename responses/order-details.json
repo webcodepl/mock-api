@@ -1,0 +1,42 @@
+[
+	{
+		"orderId": "7d029ca6-6256-11ec-a9f1-c66edcc91f33",
+		"camundaProcessId": "7d69fc62-6256-11ec-b23d-ca891bd1eb01",
+		"creationDate": "2021-12-21T13:06:56",
+		"componentCode": "XYZ1",
+		"componentName": "Produkt 1",
+		"componentType": "produkt"
+	},
+	{
+		"orderId": "7d029ca6-6256-11ec-a9f1-c66edcc91f33",
+		"camundaProcessId": "7d69fc62-6256-11ec-b23d-ca891bd1eb01",
+		"creationDate": "2021-12-21T13:06:56",
+		"componentCode": "XYZ2",
+		"componentName": "Produkt 2",
+		"componentType": "produkt"
+	},
+	{
+		"orderId": "7d029ca6-6256-11ec-a9f1-c66edcc91f33",
+		"camundaProcessId": "7d69fc62-6256-11ec-b23d-ca891bd1eb01",
+		"creationDate": "2021-12-21T13:06:56",
+		"componentCode": "XYZ3",
+		"componentName": "Produkt 3",
+		"componentType": "produkt"
+	},
+	{
+		"orderId": "7d029ca6-6256-11ec-a9f1-c66edcc91f33",
+		"camundaProcessId": "7d69fc62-6256-11ec-b23d-ca891bd1eb01",
+		"creationDate": "2021-12-21T13:06:56",
+		"componentCode": "XYZ4",
+		"componentName": "Produkt 4",
+		"componentType": "produkt"
+	},
+	{
+		"orderId": "7d029ca6-6256-11ec-a9f1-c66edcc91f33",
+		"camundaProcessId": "7d69fc62-6256-11ec-b23d-ca891bd1eb01",
+		"creationDate": "2021-12-21T13:06:56",
+		"componentCode": "XYZ5",
+		"componentName": "Produkt 5",
+		"componentType": "produkt"
+	}
+]
